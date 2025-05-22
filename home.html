@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Verse</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+
+    <div id="navbar"></div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-title">
+                <div class="title-line"></div>
+                <div>
+                    <h1>Dino Verse</h1>
+                    <p>Exploring the Dinosaurs World</p>
+                    <span>By Karyll Queen Reyes</span>
+                </div>
+            </div>
+            <div class="dino-images">
+                <img src="image1.png" alt="Dino 1">
+                <img src="image2.png" alt="Dino 2">
+                <img src="image3.png" alt="Dino 3">
+                <img src="image4.png" alt="Dino 4">
+            </div>
+        </div>
+    </section>
+
+   <section class="travel-back">
+    <div class="travel-text">
+        <h2>TRAVEL BACK IN TIME</h2>
+        <h1>When<br>Dinosaurs<br>Ruled the Earth</h1>
+    </div>
+    <div class="travel-details">
+        <ul>
+            <li><strong>Step Into the Prehistoric Past</strong></li>
+            <p>Discover a world before humans existed, where giant dinosaurs roamed the land. Our content brings the dinosaur era to life, making it easy to understand and exciting to explore.</p>
+            
+            <li><strong>Fascinating Fossil Facts</strong></li>
+            <p>Everything we share is based on real fossils and expert research. From the first dinosaurs in the Triassic period to their extinction at the end of the Cretaceous, we cover their full story in a fun and informative way.</p>
+        </ul>
+    </div>
+</section>
+
+
+    <section class="did-you-know">
+    <h2>Did You Know?</h2>
+    <div class="facts-container">
+        <div class="fact">
+            <h3>Some dinosaurs had feathers!</h3>
+            <p>Many theropods, like the Velociraptor, had feathers — and birds today are actually considered modern dinosaurs.</p>
+        </div>
+        <div class="fact">
+            <h3>The Stegosaurus had a brain the size of a walnut.</h3>
+            <p>Despite its large body, its brain was only about the size of a lime!</p>
+        </div>
+        <div class="fact">
+            <h3>Tyrannosaurus rex had one of the strongest bites in history.</h3>
+            <p>Its bite force could crush bones — over 12,000 pounds of pressure!</p>
+        </div>
+        <div class="fact">
+            <h3>The name "dinosaur" means "terrible lizard."</h3>
+            <p>It was coined in 1842 by British scientist Richard Owen — but dinosaurs aren't actually lizards!</p>
+        </div>
+    </div>
+</section>
+
+
+    <section class="resources">
+        <h2>Educational Resources</h2>
+        <div class="resource-buttons">
+            <button type="button" onclick="window.location.href='extinction.html'">Learn About Extinction</button>
+            <button type="button" onclick="window.location.href='fossil.html'">Fossil Facts</button>
+            <button type="button" onclick="window.location.href='quiz.html'">Dino Quiz</button>
+        </div>
+    </section>
+
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>

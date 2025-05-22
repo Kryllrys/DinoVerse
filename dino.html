@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DinoVerse</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #276749;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #276749;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero small {
+      font-size: 18px;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    /* Grid Section */
+    .grid-section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .dino-box {
+      background-color: white;
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .dino-box img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .dino-content {
+      padding: 10px;
+      flex-grow: 1;
+    }
+
+    .dino-content b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .dino-content small {
+      display: block;
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .dino-content button {
+      padding: 6px 12px;
+      background-color: #2d3748;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .dino-content button:hover {
+      background-color: #1a202c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <small>Kinds of</small>
+    <h1>Dinosaurs</h1>
+  </section>
+
+  <!-- Grid Section -->
+  <section class="grid-section">
+    <!-- Repeat this .dino-box 12 times -->
+    <div class="dino-box">
+      <img src="kinds/img1.jpg" alt="Dino 1">
+      <div class="dino-content">
+        <b>Tyrannosaurus Rex</b>
+        <small>Late Cretaceous period, around 68 to 66 million years ago.</small>
+       <button onclick="location.href='trex.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img2.jpg" alt="Dino 2">
+      <div class="dino-content">
+        <b>Triceratops</b>
+        <small>Late Cretaceous, about 68 to 66 million years ago.</small>
+        <button onclick="location.href='triceratops.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img3.jpg" alt="Dino 2">
+      <div class="dino-content">
+        <b>Velociraptor</b>
+        <small>Late Cretaceous, approximately 75 to 71 million years ago.</small>
+        <button onclick="location.href='velociraptor.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img5.jpg" alt="Dino 2">
+      <div class="dino-content">
+        <b>Stegosaurus</b>
+        <small>Late Jurassic period, around 155 to 150 million years ago.</small>
+        <button onclick="location.href='stegosaurus.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img4.jpg" alt="Dino 2">
+      <div class="dino-content">
+        <b>Brachiosaurus</b>
+        <small>Late Jurassic, roughly 154 to 150 million years ago.</small>
+       <button onclick="location.href='brachiosaurus.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img6.jpg" alt="Dino 2">
+      <div class="dino-content">
+        <b>Ankylosaurus</b>
+        <small>Late Cretaceous, about 68 to 66 million years ago</small>
+        <button onclick="location.href='ankylosaurus.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img7.jpg" alt="Dino 2">
+      <div class="dino-content">
+        <b>Spinosaurus</b>
+        <small> Mid-Cretaceous period, around 112 to 93 million years ago.</small>
+        <button onclick="location.href='spinosaurus.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img8.jpg" alt="Dino 2">
+      <div class="dino-content">
+        <b>Allosaurus</b>
+        <small>Late Jurassic, around 155 to 145 million years ago.</small>
+        <button onclick="location.href='allosaurus.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img9.webp" alt="Dino 2">
+      <div class="dino-content">
+        <b>Diplodocus</b>
+        <small>Late Jurassic, about 154 to 152 million years ago.</small>
+        <button onclick="location.href='diplodocus.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img10.webp" alt="Dino 2">
+      <div class="dino-content">
+        <b>Iguanodon</b>
+        <small>Early Cretaceous period, approximately 126 to 113 million years ago.</small>
+        <button onclick="location.href='iguanodon.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img11.webp" alt="Dino 2">
+      <div class="dino-content">
+        <b>Parasaurolophus  </b>
+        <small>Late Cretaceous, around 76.5 to 73 million years ago.</small>
+        <button onclick="location.href='parasaurolophus.html'">Learn More</button>
+      </div>
+    </div>
+    <div class="dino-box">
+      <img src="kinds/img12.webp" alt="Dino 2">
+      <div class="dino-content">
+        <b>Therizinosaurus</b>
+        <small>Late Cretaceous, around 70 million years ago.</small>
+        <button onclick="location.href='therizinosaurus.html'">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Add more .dino-box blocks until you have 12 total -->
+  </section>
+
+</body>
+</html>

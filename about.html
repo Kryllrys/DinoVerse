@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spinosaurus</title>
+  <link rel="stylesheet" href="/css/dino.css" />
+  <link rel="stylesheet" href="/css/nav.css" />
+</head>
+<body style="margin: 0; padding: 0;">
+
+  <div id="navbar"></div>
+
+
+  <section class="hero-section" style="background-image: url('aboout.png');">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">About</h1>
+    </div>
+     </section>
+  <section class="dino-history">
+  <div class="container">
+    <h2 class="history-title">About Dino Verse</h2>
+    <p class="history-text">
+      Welcome to <strong>Dino Verse</strong>, your gateway to the fascinating world of dinosaurs — the incredible creatures that once ruled our planet millions of years ago. This site is dedicated to exploring dinosaur species, their history, anatomy, behaviors, and the amazing fossil discoveries that help us understand their existence.
+      <br><br>
+      Dinosaurs lived during the Mesozoic Era, spanning over 160 million years, and varied greatly in size, shape, and habitat. From the towering herbivores like Brachiosaurus to the fierce carnivores like Tyrannosaurus rex, dinosaurs have captured the curiosity of scientists and enthusiasts alike.
+      <br><br>
+      The purpose of <strong>Dino Verse</strong> is to provide educational, reliable, and engaging information about dinosaurs. Whether you are a student, teacher, or simply a dinosaur fan, this platform aims to make paleontology accessible and fun by sharing fascinating facts, fossil findings, and scientific insights.
+      <br><br>
+      We hope to inspire a deeper appreciation for Earth’s prehistoric past and encourage curiosity about the natural world through the stories fossils tell. Join us as we uncover the mysteries of dinosaurs and bring these ancient giants back to life through knowledge.
+    </p>
+  </div>
+</section>
+
+  </div>
+</section>
+
+<script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>

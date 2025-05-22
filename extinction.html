@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dino Verse</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+<body>
+
+    <div id="navbar"></div>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-title">
+                <div class="title-line"></div>
+                <div>
+                    <h1>What Happened to the Dinosaurs?</h1>
+                    <p>Learn more about their Extinction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="travel-back">
+    <div class="travel-text">
+        <h1>How did<br>the dinosaurs<br>go extinct?</h1> 
+    </div>
+    <div class="travel-details">
+        <p>About 66 million years ago, Earth experienced a massive extinction event that wiped out almost all dinosaurs. 
+            The most widely accepted explanation is that a giant asteroid crashed into what is now the Yucatán Peninsula in Mexico. 
+            The impact caused enormous fires, huge waves (tsunamis), and sent dust and debris into the sky. This blocked sunlight for months, 
+            causing the Earth’s temperature to drop and plants to die. Since dinosaurs relied on plants or other animals that ate plants, 
+            their food sources quickly disappeared, leading to their extinction.</p>
+    </div>
+</section>
+
+<section class="travel-back">
+    <div class="travel-text">
+        <h1>How did<br>the dinosaurs<br>go extinct?</h1> 
+    </div>
+    <div class="travel-details">
+        <p>About 66 million years ago, Earth experienced a massive extinction event that wiped out almost all dinosaurs. 
+            The most widely accepted explanation is that a giant asteroid crashed into what is now the Yucatán Peninsula in Mexico. 
+            The impact caused enormous fires, huge waves (tsunamis), and sent dust and debris into the sky. This blocked sunlight for months, 
+            causing the Earth’s temperature to drop and plants to die. Since dinosaurs relied on plants or other animals that ate plants, 
+            their food sources quickly disappeared, leading to their extinction.</p>
+    </div>
+</section>
+
+<section class="travel-back">
+    <div class="travel-text">
+        <h1>Was the<br>asteroid<br>the only cause?</h1> 
+    </div>
+    <div class="travel-details">
+        <p>While the asteroid played a huge role, it wasn’t the only factor. Around the same time, massive volcanic eruptions in a region called the Deccan Traps (in India)
+             released large amounts of gas and ash into the atmosphere. This may have already started to change the climate. 
+            The combination of volcanic activity, shifting sea levels, and the asteroid impact created a perfect storm that Earth’s ecosystems couldn’t handle.</p>
+    </div>
+</section>
+
+<section class="travel-back">
+    <div class="travel-text">
+        <h1>Did all Dinosaurs<br>disappear?</h1> 
+    </div>
+    <div class="travel-details">
+        <p>Not exactly. While most large dinosaurs went extinct, a group of small, feathered dinosaurs survived — and they evolved into the birds we see today. That’s right: birds are actually living dinosaurs! So technically, the dinosaur lineage never completely died out — it just changed form over millions of years.</p>
+    </div>
+</section>
+
+<section class="travel-back">
+    <div class="travel-text">
+        <h1>What happened<br>after the dinosaurs<br>were gone?</h1> 
+    </div>
+    <div class="travel-details">
+        <p>With the dinosaurs gone, new life began to rise. Small mammals that had once lived in the shadows of dinosaurs now had room to grow and evolve. Over millions of years, they became more diverse and eventually led to the appearance of many modern animals — including humans. The extinction of dinosaurs marked the end of the Mesozoic Era and the beginning of the Cenozoic Era, also known as the Age of Mammals.</p>
+    </div>
+</section>
+
+
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
