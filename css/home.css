@@ -9,7 +9,7 @@ body, html {
 
 /* Hero Section */
 .hero {
-    background-image: url('/homebg.jpg');
+    background-image: url('homebg.jpg');
     background-size: cover;
     background-position: center;
     color: white;
