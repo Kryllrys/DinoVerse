@@ -1,0 +1,203 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Hero Section */
+.hero {
+    background-image: url('/homebg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    text-align: left;
+background-attachment: fixed; 
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.title-line {
+    width: 5px;
+    height: 150px;
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+
+.hero-title h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.hero-title p {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.hero-title span {
+    font-size: 18px;
+    color: #dddddd;
+}
+
+.dino-images {
+    display: flex;
+    gap: 30px;
+    margin-right: 10px; /* Remove this line */
+    justify-content: center; /* Center the images horizontally */
+    margin-top: 10px; /* Optional: Add a bit of spacing from the hero text */
+}
+
+.dino-images img {
+    width: 320px;
+    height: auto; /* Preserve the aspect ratio */
+    transition: transform 0.3s;
+}
+
+.dino-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Travel Back Section */
+.travel-back {
+    background-color: #003300;
+    color: white;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-text {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.travel-text h2 {
+    font-size: 20px;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.travel-text h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.travel-details {
+    flex: 2;
+    max-width: 600px;
+}
+
+.travel-details ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.travel-details li {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.travel-details p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.travel-details li::before {
+    content: "• ";
+    color: #66bb66;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+/* Did You Know */
+.did-you-know {
+    background-color: #003300;
+    color: white;
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.did-you-know h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.facts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.fact {
+    background-color: #004400;
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.fact:hover {
+    background-color: #006600;
+}
+
+.fact h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.fact p {
+    font-size: 16px;
+    color: #cccccc;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+
+/* Educational Resources */
+.resources {
+    background-color: #004400;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.resource-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+button {
+    background-color: #007700;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #009900;
+}
